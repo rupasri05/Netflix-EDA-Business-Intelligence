@@ -1,13 +1,12 @@
-# 📊 EDA Report — Netflix Global Content Insights (2016–2025)
+# EDA Report — Netflix Global Content Insights (2016–2025)
 
-**Assignment:** Exploratory Data Analysis & Business Intelligence  
 **Dataset:** `netflix_cleaned.csv` — 200 rows × 16 columns  
 **Tools:** Python 3, Pandas, Matplotlib, Seaborn, SQLite  
 **Script:** `eda_analysis.py`
 
 ---
 
-## 1. 📐 Descriptive Statistics — Numerical Variables
+## 1. Descriptive Statistics — Numerical Variables
 
 The table below summarises the three key numerical columns across all 200 titles:
 
@@ -30,7 +29,7 @@ The table below summarises the three key numerical columns across all 200 titles
 
 ---
 
-## 2. 🔡 Categorical Variable Summaries
+## 2. Categorical Variable Summaries
 
 ### 2.1 IMDb Quality Band Distribution
 
@@ -70,7 +69,7 @@ The USA dominates in volume at **62% of the catalogue**, but Canada and UK lead 
 
 ---
 
-## 3. 📈 Univariate Analysis
+## 3. Univariate Analysis
 
 ### 3.1 IMDb Score Distribution
 
@@ -99,7 +98,7 @@ Each year from 2016 to 2025 contains exactly **20 titles**, making this a perfec
 
 ---
 
-## 4. 🔗 Multivariate Analysis
+## 4. Multivariate Analysis
 
 ### 4.1 Correlation Matrix
 
@@ -199,7 +198,7 @@ Long-form content (500+ minutes) generates **3.6× more viewership** than short 
 
 ---
 
-## 5. 🏆 Key Business Insights Summary
+## 5. Key Business Insights Summary
 
 | # | Insight | Supporting Data |
 |---|---|---|
@@ -212,7 +211,7 @@ Long-form content (500+ minutes) generates **3.6× more viewership** than short 
 
 ---
 
-## 6. 📁 Deliverables
+## 6. Deliverables
 
 | File | Description |
 |---|---|
