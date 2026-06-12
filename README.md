@@ -1,11 +1,11 @@
-# 📊 Netflix Global Content Insights — EDA & Business Intelligence
+# Netflix Global Content Insights — EDA & Business Intelligence
 
 > **Internship Assignment | Task 2 — Exploratory Data Analysis & Business Intelligence**
 > Uncovering patterns, trends, and actionable insights from Netflix content data (2016–2025) using Python and SQL.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 netflix-eda/
@@ -17,7 +17,7 @@ netflix-eda/
 │   ├── eda_fig1_univariate.png       # Descriptive analysis charts (auto-generated)
 │   └── eda_fig2_multivariate.png     # Correlation & multivariate charts (auto-generated)
 │
-├── eda_analysis.py                   # ⭐ Main Python EDA script (run this)
+├── eda_analysis.py                   # Main Python EDA script (run this)
 ├── sql_queries.sql                   # 7 business SQL queries with results
 ├── eda_report.md                     # Full written EDA report with insights
 ├── Netflix_Dashboard.pptx            # Static dashboard mock-up (PowerPoint)
@@ -26,7 +26,7 @@ netflix-eda/
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Perform a full Exploratory Data Analysis on the cleaned Netflix dataset to:
 - Compute descriptive statistics across all numerical and categorical fields
@@ -36,7 +36,7 @@ Perform a full Exploratory Data Analysis on the cleaned Netflix dataset to:
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 | Property | Value |
 |---|---|
@@ -49,7 +49,7 @@ Perform a full Exploratory Data Analysis on the cleaned Netflix dataset to:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Install dependencies
 ```bash
@@ -75,7 +75,7 @@ python3 eda_analysis.py
 
 ---
 
-## 🔍 What `eda_analysis.py` Covers
+## What `eda_analysis.py` Covers
 
 The script is divided into 12 clearly labelled sections:
 
@@ -96,7 +96,7 @@ The script is divided into 12 clearly labelled sections:
 
 ---
 
-## 🗄️ SQL Business Questions
+## SQL Business Questions
 
 All 7 queries are in `sql_queries.sql`. Run them using Python + SQLite (no extra setup needed):
 
@@ -123,20 +123,20 @@ print(result)
 
 ---
 
-## 💡 Top 6 Business Insights
+## Top 6 Business Insights
 
 | # | Insight | Data Evidence |
 |---|---|---|
-| 1 | 🇰🇷 **Korean content ROI is exceptional** | 20 titles, avg 143.9M views — nearly 2× the USA average of 76M |
-| 2 | ☀️ **Summer releases outperform all other months** | June–July avg 113M vs October 34.2M — 3.3× difference |
-| 3 | 📺 **Longer series dramatically outperform short content** | 500+ min content averages 122M views vs 33.6M for short |
-| 4 | 🎭 **Heist/Crime genre is severely underproduced** | Only 5 titles but highest avg viewership at 388M per title |
-| 5 | 🇪🇸 **Spanish content has the best views-to-volume ratio** | 9 titles averaging 229M views — highest of any country |
-| 6 | ⭐ **Quality and popularity are largely independent** | IMDb ↔ Viewership correlation is only +0.07 (near zero) |
+| 1 | **Korean content ROI is exceptional** | 20 titles, avg 143.9M views — nearly 2× the USA average of 76M |
+| 2 | **Summer releases outperform all other months** | June–July avg 113M vs October 34.2M — 3.3× difference |
+| 3 | **Longer series dramatically outperform short content** | 500+ min content averages 122M views vs 33.6M for short |
+| 4 | **Heist/Crime genre is severely underproduced** | Only 5 titles but highest avg viewership at 388M per title |
+| 5 | **Spanish content has the best views-to-volume ratio** | 9 titles averaging 229M views — highest of any country |
+| 6 | **Quality and popularity are largely independent** | IMDb ↔ Viewership correlation is only +0.07 (near zero) |
 
 ---
 
-## 📈 Visualizations Generated
+## Visualizations Generated
 
 ### Figure 1 — Univariate / Descriptive Analysis
 `eda_fig1_univariate.png` — 6 panels:
@@ -158,7 +158,7 @@ print(result)
 
 ---
 
-## 🖥️ Static Dashboard Mock-up
+## Static Dashboard Mock-up
 
 `Netflix_Dashboard.pptx` — 7-slide PowerPoint deck covering:
 
@@ -176,7 +176,7 @@ Open in Microsoft PowerPoint or import into Google Slides (File → Import Slide
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -189,7 +189,7 @@ Open in Microsoft PowerPoint or import into Google Slides (File → Import Slide
 
 ---
 
-## 📤 Deliverables Checklist
+## Deliverables Checklist
 
 - [x] `eda_analysis.py` — full Python EDA script (12 sections)
 - [x] `sql_queries.sql` — 7 business SQL queries with comments and results
@@ -201,8 +201,8 @@ Open in Microsoft PowerPoint or import into Google Slides (File → Import Slide
 
 ---
 
-## 👤 Author
+## Author
 
-**[Your Name]**
+**Rupa Sri**
 Data Analytics Intern
-[Your LinkedIn Profile] | [Your GitHub Profile]
+https://www.linkedin.com/in/rupa-sri-561066303/ | https://github.com/rupasri05
